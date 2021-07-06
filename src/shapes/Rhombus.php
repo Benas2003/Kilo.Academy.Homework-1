@@ -20,5 +20,10 @@ class Rhombus extends Shapes
         return round(pow($edge, 2) * sin(deg2rad($degree)),1);
     }
 
+    public function calculatePerimeter (float $edge1, float $edge2): float
+    {
+        return 2*$edge1+2*$edge2;
+    }
+
 
 }

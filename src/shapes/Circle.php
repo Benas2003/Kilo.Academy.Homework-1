@@ -17,7 +17,7 @@ class Circle extends Shapes
 
     public function calculateArea(float $radius, float $pi): float
     {
-        return $pi*pow($radius,2);
+        return $pi * pow($radius, 2);
     }
 
     public function calculatePerimeter (float $radius, float $pi): float
