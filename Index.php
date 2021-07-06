@@ -1,5 +1,5 @@
 <?php
-require "src/Shapes.php";
+require "src/Shape.php";
 require "src/shapes/Circle.php";
 require "src/shapes/Rectangle.php";
 require "src/shapes/Rhombus.php";

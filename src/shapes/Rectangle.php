@@ -1,7 +1,7 @@
 <?php
 
 
-class Rectangle extends Shapes
+class Rectangle extends Shape
 {
     public float $length;
     public float $width;

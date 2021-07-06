@@ -1,7 +1,7 @@
 <?php
 
 
-class Rhombus extends Shapes
+class Rhombus extends Shape
 {
     public float $edge;
     public float $degree=33;

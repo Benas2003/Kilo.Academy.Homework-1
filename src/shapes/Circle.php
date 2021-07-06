@@ -1,7 +1,7 @@
 <?php
 
 
-class Circle extends Shapes
+class Circle extends Shape
 {
     public float $radius;
     public float $pi = 3.14;
