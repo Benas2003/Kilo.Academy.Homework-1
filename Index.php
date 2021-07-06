@@ -2,16 +2,17 @@
 require "src/Shapes.php";
 require "src/shapes/Circle.php";
 require "src/shapes/Rectangle.php";
-require "src/shapes/Square.php";
 require "src/shapes/Rhombus.php";
 
+// Circle
 $circle = new Circle(2);
 echo $circle->calculateArea($circle->radius, $circle->pi)." ";
 echo $circle->calculatePerimeter($circle->radius, $circle->pi)." ";
 
-$square = new Square(2);
-echo $square->calculateArea($square->edge, $square->edge)." ";
-echo $square->calculatePerimeter($square->edge, $square->edge)." ";
+// Rectangle (Square)
+$square = new Rectangle(2, 2);
+echo $square->calculateArea($square->length, $square->width)." ";
+echo $square->calculatePerimeter($square->length, $square->width)." ";
 
 $rectangle = new Rectangle(1,3);
 echo $rectangle->calculateArea($rectangle->length, $rectangle->width)." ";
