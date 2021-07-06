@@ -13,7 +13,7 @@ $square = new Square(2);
 echo $square->calculateArea($square->edge, $square->edge)." ";
 echo $square->calculatePerimeter($square->edge, $square->edge)." ";
 
-$rectangle = new Rectangle(2,3);
+$rectangle = new Rectangle(1,3);
 echo $rectangle->calculateArea($rectangle->length, $rectangle->width)." ";
 echo $rectangle->calculatePerimeter($rectangle->length, $rectangle->width)." ";
 

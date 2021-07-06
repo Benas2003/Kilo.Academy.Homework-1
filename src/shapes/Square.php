@@ -7,6 +7,10 @@ class Square extends Shapes
 
     public function __construct(float $edge)
     {
-        $this->edge = $edge;
+        if($edge>0) {
+            $this->edge = $edge;
+        } else{
+            throw new InvalidArgumentException("Edge cannot be less than 0");
+        }
     }
 }

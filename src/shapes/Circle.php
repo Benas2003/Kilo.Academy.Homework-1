@@ -8,7 +8,11 @@ class Circle extends Shapes
 
     public function __construct(float $radius)
     {
-        $this->radius = $radius;
+        if($radius>0) {
+            $this->radius = $radius;
+        } else{
+            throw new InvalidArgumentException("Radius cannot be less than 0");
+        }
     }
 
     public function calculateArea(float $radius, float $pi): float
